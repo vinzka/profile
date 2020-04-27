@@ -1,0 +1,101 @@
+@media (max-width: 960px) {
+  /* For a screen < 960px, this CSS will be read */
+  .container {
+    width: 700px;
+  }
+}
+@media (max-width: 720px) {
+  /* For a screen < 720px, this CSS will be read */
+  .container {
+    width: 500px;
+  }
+}
+@media (max-width: 540px) {
+  /* For a screen < 540px, this CSS will be read */
+  .container {
+    width: 300px;
+  }
+}
+
+body {
+  color: #484a51;
+  background-color: #f7f9fc;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 12px;
+}
+
+h1 {
+  font-size: 20px;
+  letter-spacing: -1px;
+  color: #7b7ca5;
+  margin-top: 0;
+}
+
+.list-inline > li {
+  display: inline-block;
+  padding: 0px 10px;
+}
+
+.list-inline {
+  list-style: none;
+  padding-left: 0px;
+  margin-bottom: 0;
+}
+
+h2 {
+  font-size: 14px;
+  font-weight: 700;
+  color: #7b7ca5;
+  letter-spacing: 0px;
+  margin-top: 0;
+}
+
+.box {
+  width: 600px;
+  padding: 20px;
+  margin: 16px auto;
+  background-color: white;
+  box-shadow: 0 10px 60px rgba(0,0,0,0.1);
+  border-radius: 4px;
+  text-align: center;
+}
+
+.btn-blue {
+  font-size: 15px;
+  font-family: 'Open Sans', sans-serif;
+  color: #7b7ca5;
+  padding: 5px;
+  border-radius: 14px;
+  text-decoration: none;
+  letter-spacing: -1px;
+}
+
+.btn-blue:hover {
+  background-color: #484a51;
+  color: white;
+}
+
+.img-round {
+  width: 140px;
+  border-radius: 50%;
+}
+
+.social-icon a {
+  color: #484a51;
+  font-size: 20px;
+  margin-bottom: 0;
+}
+
+.social-icon {
+  display: inline-block;
+}
+
+.social-icon a {
+  display: inline-block;
+}
+
+.social-icon i:hover {
+  color: rgb(150, 150, 150);
+}
+
+
